@@ -57,13 +57,20 @@ Al ser estática, vale cualquiera de estas opciones:
 - **GitHub Pages**: Settings → Pages → publica desde la rama.
 - **Cloudflare Pages**: conecta el repo, sin comando de build.
 
-## 🎨 Personalizar colores
+## 🎨 Diseño y colores
 
-Los colores de marca están centralizados al principio de `styles.css` en `:root`:
+El estilo es **editorial**: fondo papel, tinta casi negra, un único acento tangerina,
+titulares en serif (Fraunces), etiquetas en monoespaciada y retícula con reglas finas.
+Sin degradados ni glassmorphism.
+
+Los colores están centralizados al principio de `styles.css` en `:root`:
 
 ```css
---brand:   #7c6cff;   /* violeta principal */
---brand-2: #00d4ff;   /* cian */
---warm:    #ff8a4c;   /* acento "Reformas" */
---green:   #19c79a;   /* acento "Energías renovables" */
+--paper:   #F4F1EA;   /* fondo papel */
+--paper-2: #EBE6DA;   /* fondo de secciones alternas */
+--ink:     #171511;   /* tinta (texto y secciones oscuras) */
+--accent:  #FF5A1F;   /* acento tangerina */
 ```
+
+Tipografías: **Fraunces** (titulares serif) e **Inter** (texto), cargadas desde Google Fonts.
+Las etiquetas pequeñas usan la monoespaciada del sistema.
