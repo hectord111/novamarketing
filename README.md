@@ -1,7 +1,8 @@
 # Nova Marketing — Web
 
 Landing page de **Nova Marketing**: soluciones de marketing digital para empresas de
-**reformas** e **instalaciones de energía renovable**, con un servicio completo por **400 €/mes**.
+**reformas** e **instalaciones de energía renovable**. Dos planes: **Starter** (150 €/mes,
+solo Meta Ads) y **Crecimiento** (400 €/mes, servicio completo con SEO y web interactiva).
 
 Hecha con **HTML, CSS y JavaScript puro**, sin dependencias ni paso de compilación.
 Se abre directamente en el navegador y se despliega en cualquier hosting estático.
