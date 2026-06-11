@@ -178,8 +178,8 @@ img, svg { display: block; max-width: 100%; }
 .svc p { color: var(--muted); font-weight: 500; font-size: 0.98rem; }
 .svc:hover p { color: var(--black); }
 
-/* ===== Precio — dos planes (sección AMARILLA) ===== */
-.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: stretch; }
+/* ===== Precio — tres planes (sección AMARILLA) ===== */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: stretch; }
 .plan { display: flex; flex-direction: column; background: #fff; border: 3px solid var(--black); padding: 36px; box-shadow: 6px 6px 0 var(--black); }
 .plan-featured { background: var(--black); color: var(--on-black); }
 .plan-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-bottom: 16px; margin-bottom: 22px; border-bottom: 2px solid var(--black); }
